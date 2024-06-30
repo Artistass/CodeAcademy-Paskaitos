@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  background-color: #343a40;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 0 15px;
+  padding: 10px 20px;
+  transition: background-color 0.2s;
+}
+
+header a:hover {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+main {
+  padding: 100px 20px 20px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  /* margin-bottom: 20px; */
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.cancel_button {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.cancel_button:hover {
+  background-color: #c82333;
+}
+
+.submit_button {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.submit_button:hover {
+  background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
+
+.fillMessage {
+  color: rgba(255, 0, 0, 0.517);
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0;
+}
+
+#note_p {
+color: rgba(0, 0, 0, 0.316);
+margin: 0;
+}

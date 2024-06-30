@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/addNewMembership.css" />
+    <script type="module" src="../JavaScript/addNewMembership.js"></script>
+    <title>Add new Membership</title>
+  </head>
+  <body>
+    <header>
+      <a href="./memberships.html" class="membership_a">Membership</a>
+      <a href="./users.html">Users</a>
+    </header>
+    <main>
+      <h1>Create Membership</h1>
+      <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name" autocomplete="off" />
+        <p id="name_fill" class="fill_message"></p>
+        <br />
+
+        <label for="membership_price">Membership Price:</label>
+        <input
+          type="text"
+          id="membership_price"
+          placeholder="$ Membership Price"
+          autocomplete="off"
+        />
+        <p id="note_p">Note: Use only numbers.</p>
+        <p id="price_fill" class="fill_message"></p>
+        <br />
+
+        <label for="description">Description:</label>
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Writte membership description "
+        ></textarea>
+        <p id="description_fill" class="fill_message"></p>
+        <br />
+
+        <div class="buttons">
+          <button class="cancel_button">Cancel</button>
+          <button type="submit">New Membership</button>
+        </div>
+      </form>
+      <p class="copy_right">
+        Copyright <i class="fa-regular fa-copyright"></i> 2021 Membership
+        Manager
+      </p>
+    </main>
+  </body>
+</html>

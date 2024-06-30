@@ -1,0 +1,123 @@
+/* Header */
+
+header  {
+    text-align: center;
+    padding: 1rem;
+    }
+    
+    header a {
+      color: lightgrey;
+      text-decoration: none;
+      margin-left: 5rem;
+      font-weight: bold;
+    }
+    
+    header a:hover {
+      color: rgb(29, 131, 220);
+    }  
+    
+    .membership_a {
+      color: rgb(29, 131, 220);
+    }
+
+
+    /* Main */
+
+
+  main {
+    background-color: #eee;
+    padding: 20px;
+  }
+
+  #form {
+    background-color: white;
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem 10rem;
+    
+  }
+
+  label {
+    color: #555;
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  input::placeholder {
+    color: #aaa;
+    font-size: 12px;
+  }
+
+  textarea::placeholder {
+    color: #aaa;
+    font-size: 12px;
+  }
+
+  .input-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    justify-content: center;
+    padding: 10px;
+    margin: 0 0 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  button:hover {
+    transform: translateY(-3px);
+  }
+
+
+
+  button {
+    background-color: #007bff;
+    color: white;
+  }
+
+  
+
+  button:hover {
+    background-color: #0056b3;
+
+  }
+
+  .cancel_button {
+    background-color: rgba(128, 128, 128, 0.412);
+    margin-right: 3rem;
+  }
+
+  .cancel_button:hover {
+    background-color: gray;
+  }
+
+  
+  .copy_right {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 4rem;
+  }
+
+
+.fill_message {
+  color: rgba(255, 0, 0, 0.535);
+  font-size: 12px;
+  margin: 0;
+}

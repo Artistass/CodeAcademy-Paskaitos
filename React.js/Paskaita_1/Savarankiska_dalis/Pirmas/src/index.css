@@ -1,0 +1,46 @@
+button {
+  background-color: rgb(192, 132, 248);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2rem;
+  padding: 1rem 3rem;
+  border-radius: 15px;
+  border: 2px solid rgb(158, 58, 252);
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(192, 132, 248, 0.671);
+}
+
+img {
+  width: 10rem;
+}
+
+a {
+  align-items: center;
+  justify-items: center;
+  margin: 2rem;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(158, 58, 252);
+}
+
+a:hover {
+  color: rgba(192, 132, 248, 0.671);
+}
+
+ul li{
+  color: rgb(73, 30, 113);
+  list-style-type: none;
+  margin-top: .4rem;
+  font-size: 24px;
+}
+
+p {
+  color: rgb(41, 18, 63);
+  text-align: center;
+  max-width: 80%;
+  margin: 2rem auto;
+  font-size: 20px;
+}

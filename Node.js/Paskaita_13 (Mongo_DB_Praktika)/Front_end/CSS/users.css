@@ -1,0 +1,171 @@
+/* Header */
+
+header  {
+  text-align: center;
+  padding: 1rem;
+  }
+  
+  header a {
+    color: lightgrey;
+    text-decoration: none;
+    margin-left: 5rem;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    color: rgb(29, 131, 220);
+  }  
+  
+  .membership_a {
+    color: rgb(29, 131, 220);
+  }
+
+  /* Main */
+
+  main {
+    background-color: #eee;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 1rem 3rem 1rem 3rem;
+  }
+  
+  .infoSection {
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+  }
+  
+  .infoSection h1 {
+    font-size: 24px;
+  }
+  
+  .infoSection p {
+    font-size: 14px;
+  }
+  
+  span {
+    padding-right: 1rem;
+    font-weight: bolder;
+    font-size: 14px;
+  }
+  
+  .new_user {
+    background-color: rgb(29, 131, 220);
+    color: white;
+    padding: .5rem 1rem .5rem 1rem;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  
+  .copy_right {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 4rem;
+  }
+
+  .sort_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #sortByName {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin: .5rem 0;
+    cursor: pointer;
+  }
+
+  #sortByName i {
+    color: rgb(29, 131, 220);
+  }
+
+
+  /* User Card */
+
+  /* User Card Styles */
+  #userCardInfo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust gap between cards as needed */
+    padding: 20px;
+  }
+  
+  .user_card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+  
+  .first_and_lastName {
+    color: #666;
+    display: flex;
+    gap: 6px;
+    margin-bottom: 2rem;
+  }
+  
+  .email_text {
+    color: grey;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .user_email_text {
+    color: rgb(29, 131, 220);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .user_membershipId {
+    margin-top: 1rem;
+  }
+
+  .membership_text {
+    color: grey;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .user_membership_text {
+    color: rgb(29, 131, 220);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .hr_line {
+    border: none;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.461);
+    margin: 10px 0;
+  }
+
+  .delete_button {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete_button:hover {
+    background-color: #c0392b;
+  }
+
+
+  

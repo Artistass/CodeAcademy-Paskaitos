@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/add.css" />
+    <script type="module" src="../JavaScript/add.js"></script>
+    <title>Add Pets</title>
+  </head>
+  <body>
+    <a href="./index.html">View pets</a>
+    <h1>Add pet</h1>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" autocomplete="off" /><br />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" autocomplete="off" /><br />
+
+      <label for="type">Type:</label>
+
+      <select name="type" id="type">
+        <option id="type" value="Dog">Dog</option>
+        <option id="type" value="Cat">Cat</option>
+        <option id="type" value="Bunny">Bunny</option>
+      </select>
+      <button type="submit">Add</button>
+    </form>
+  </body>
+</html>

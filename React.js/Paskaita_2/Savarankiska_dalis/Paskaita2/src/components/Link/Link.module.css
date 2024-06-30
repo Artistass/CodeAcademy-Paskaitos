@@ -1,0 +1,18 @@
+.link {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #eee;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

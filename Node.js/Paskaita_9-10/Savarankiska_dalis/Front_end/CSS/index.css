@@ -1,0 +1,45 @@
+#bookCard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+div {
+  margin-top: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+p:first-child {
+  font-weight: bold;
+}
+
+p:last-child {
+  font-style: italic;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}

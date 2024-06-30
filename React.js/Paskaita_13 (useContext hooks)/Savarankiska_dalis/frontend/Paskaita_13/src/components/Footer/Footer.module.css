@@ -1,0 +1,47 @@
+/* Light mode styles */
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  color: #333333;
+  border-top: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.footer h2 {
+  font-size: 1.5em;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode styles */
+.footer.dark {
+  background-color: #333333;
+  color: #f1f1f1;
+  border-top-color: #555555;
+}

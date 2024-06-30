@@ -1,0 +1,16 @@
+.title {
+  background-color: green;
+  color: white;
+  padding: .5rem;
+  width: 89%;
+  margin: .5rem auto;
+}
+
+.text {
+  font-size: 17px;
+  font-weight: 300;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  padding: 1rem;
+}
